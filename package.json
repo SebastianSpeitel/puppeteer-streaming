@@ -1,0 +1,16 @@
+{
+  "name": "vue-streaming",
+  "version": "0.0.1",
+  "description": "",
+  "main": "runner/index.js",
+  "scripts": {
+    "start": "cd runner; npm start --silent",
+    "build": "cd runner; npm run build --silent"
+  },
+  "author": "Sebastian Speitel",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@types/chrome": "0.0.120",
+    "@types/webrtc": "0.0.26"
+  }
+}

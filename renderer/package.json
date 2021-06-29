@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "serve dist",
+    "build": "rollup -c ",
+    "dev": "npm run build --silent && npm start --silent"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "@rollup/plugin-typescript": "^5.0.1",
+    "@vue/compiler-sfc": "^3.0.0-beta.20",
+    "i": "^0.3.6",
+    "npm": "^6.14.6",
+    "rollup": "^2.19.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-postcss": "^3.1.2",
+    "rollup-plugin-vue": "^6.0.0-beta.6",
+    "serve": "^11.3.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "animate-css-grid": "git+https://github.com/aholachek/animate-css-grid.git",
+    "vue": "^3.0.0-beta.20"
+  }
+}
